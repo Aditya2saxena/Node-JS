@@ -3,15 +3,8 @@ require("dotenv").config({
     path:".env.production",
 });
 
-const PORT = process.env.PORT;
+const PORT = 5000;
 app.listen(PORT, () => {
     console.log(`Server is running on Port ${PORT}`);
-    console.log(process.env.PORT);
+    
 });
-
-
-
-// get /get/products
-// get /get/product/:id
-// post /add/products
-// delete /get/products/:id

@@ -24,8 +24,6 @@ exports.getUsersById =(req,res)=>{
     
 };
 /*
-17/03/26:
-
 res.redirect();
 res.status();
 res.send();
